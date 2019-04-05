@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background: rgb(176, 226, 227);
+}
+
+/*header layout styling*/
+.header {
+  background: #2A93D3;
+  height: 12%;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.layout-custom-sidebar-first {
+  flex: 1 1 140px;
+  border-right: 2px solid #a6a7a8c5;
+}
+
+.layout-custom-content {
+  flex: 3 1 480px;
+  padding-left: 5px;
+}
+
+.layout-custom-sidebar-second {
+  flex: 1 1 140px;
+  border-left: 2px solid #a6a7a8c5;
+  padding-left: 5px;
+}
+
+.site-name {
+  /* display: flex; */
+  justify-content: center;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 30px
+}
